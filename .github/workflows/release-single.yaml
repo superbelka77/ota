@@ -33,10 +33,12 @@ on:
         description: Force artifacts to be built and uploaded to release if non-existing
         required: false
         type: boolean
+        default: true
       force-ota-server-upload:
         description: Force OTA server upload
         required: false
         type: boolean
+        default: true
       skip-release:
         description: Skip release (build only)
         required: false
