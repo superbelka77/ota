@@ -1,7 +1,12 @@
 Superbelka77 Pixel9a (tegu) OTA root firmware
+=
+
+
+All others please do not use it as you have no keys for it!
 ===
 
 Set this URL as OTA server URL in your Custota module.  
 See [chenxiaolong/Custota](https://github.com/chenxiaolong/Custota#usage).
+
 
 [See here for a list of devices](https://github.com/superbelka77/ota/tree/gh-pages/magisk).
