@@ -1,4 +1,4 @@
-rooted-graphene OTA
+Superbelka Pixel9a (tegu) rooted-graphene OTA
 ===
 
 See original [rooted-graphene](https://github.com/schnatterer/rooted-graphene/) for more details.
