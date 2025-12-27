@@ -1,6 +1,10 @@
 Superbelka77 Pixel9a (tegu) firmware.
+=
 
-<h2> Please do not use it as you have no keys for it!</h2>
+
+All others please do not use it as you have no keys for it!
+=
+
 
 This OTA comes in different flavors, where each might support different devices.
 
