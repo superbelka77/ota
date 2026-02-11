@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/superbelka77/ota/releases/download/2026020601/oriole-2026020601-b4e2988-magisk-v30.6.zip",
+    "location_csig": "https://github.com/superbelka77/ota/releases/download/2026020601/oriole-2026020601-b4e2988-magisk-v30.6.zip.csig"
+  }
+}
