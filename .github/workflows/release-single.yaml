@@ -49,6 +49,10 @@ on:
       ota-version:
         description: OTA version
         required: false
+      skip-pixincreate:
+        default: false
+      skip-magisk:
+        default: true
       additional-env:
         description: Additional env var key value pairs, space separated, e.g. "A=1 B=2"
         default: ''
