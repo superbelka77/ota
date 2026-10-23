@@ -49,6 +49,11 @@ on:
       ota-version:
         description: OTA version
         required: false
+      skip-pixincreate:
+        description: skip building OTA rooted with pixincreate's magisk fork
+        type: boolean
+        required: false
+        default: false
       additional-env:
         description: Additional env var key value pairs, space separated, e.g. "A=1 B=2"
         default: 'SKIP_PIXINCREATE=false SKIP_MAGISK=true'
@@ -81,6 +86,7 @@ jobs:
           echo "UPLOAD_TEST_OTA=$(echo '${{ github.event.inputs.upload-test-ota || '' }}' | xargs)" >> $GITHUB_ENV
           echo "SKIP_ROOTLESS=$(echo '${{ github.event.inputs.skip-rootless || '' }}' | xargs)" >> $GITHUB_ENV
           echo "SKIP_RELEASE=$(echo '${{ github.event.inputs.skip-release || '' }}' | xargs)" >> $GITHUB_ENV
+          echo "SKIP_PIXINCREATE=$(echo '${{ github.event.inputs.skip-pixincreate || 'false' }}' | xargs)" >> $GITHUB_ENV
           
           if [[ "${{ github.event_name }}" == "push" ]]  || [[ "${{ github.event_name }}" == "pull_request" ]]; then
             echo "Running on push: Simple build without release for device $DEVICE_ID"
